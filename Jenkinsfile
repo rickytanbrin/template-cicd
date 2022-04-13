@@ -1,4 +1,4 @@
-def git_repo = 'https://bitbucket.cimbniaga.co.id/scm/cl_dev/poin-xtra-service.git'
+def git_repo = 'https://bitbucket.com/scm/cl_dev/poin-xtra-service.git'
 def public_route_prefix = 'clicks'
 def public_route_path = 'api/poinxtra'
 def max_replica_count = 1
@@ -8,9 +8,9 @@ def memory_limit = '768Mi'
 
 def git_branch = 'development'
 
-def nexus_base_url = 'https://artifactory.cimbniaga.co.id'
-def nexus_deps_repo = "$nexus_base_url/artifactory/maven_cimb/"
-def nexus_deploy_repo = "$nexus_base_url/artifactory/clicks-backend/"
+def nexus_base_url = 'https://artifactory.co.id'
+def nexus_deps_repo = "$nexus_base_url/artifactory/maven/"
+def nexus_deploy_repo = "$nexus_base_url/artifactory/backend/"
 
 def ocp_project = 'clicks-dev'
 def env = 'dev'
